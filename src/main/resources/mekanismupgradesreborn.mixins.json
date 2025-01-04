@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.yxiao233.mekanismupgradesreborn.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "mekanismupgradesreborn.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -5,6 +5,14 @@
   "compatibilityLevel": "JAVA_8",
   "refmap": "mekanismupgradesreborn.refmap.json",
   "mixins": [
+    "DelayAccessor",
+    "MixinCachedRecipe",
+    "MixinFluidicPlenisher",
+    "MixinFormulaicAssemblicator",
+    "MixinMekanismUtils",
+    "MixinPump",
+    "MixinUpgrade",
+    "MixinUpgradeUtils"
   ],
   "client": [
   ],

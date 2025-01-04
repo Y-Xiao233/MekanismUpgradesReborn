@@ -1,4 +1,4 @@
-package dev.felnull.mekanismtweaks.mixin;
+package net.yxiao233.mekanismupgradesreborn.mixin;
 
 import mekanism.common.tile.machine.TileEntityDigitalMiner;
 import org.spongepowered.asm.mixin.Mixin;

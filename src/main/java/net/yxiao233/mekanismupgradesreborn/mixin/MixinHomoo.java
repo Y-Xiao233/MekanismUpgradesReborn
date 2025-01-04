@@ -1,4 +1,4 @@
-package dev.felnull.mekanismtweaks.mixin;
+package net.yxiao233.mekanismupgradesreborn.mixin;
 
 import mekanism.api.Upgrade;
 import mekanism.common.tile.machine.TileEntityDigitalMiner;

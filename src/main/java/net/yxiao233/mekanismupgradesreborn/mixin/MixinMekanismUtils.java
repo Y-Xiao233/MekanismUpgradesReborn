@@ -1,10 +1,10 @@
-package dev.felnull.mekanismtweaks.mixin;
+package net.yxiao233.mekanismupgradesreborn.mixin;
 
-import dev.felnull.mekanismtweaks.Utils;
 import mekanism.api.math.FloatingLong;
 import mekanism.api.math.MathUtils;
 import mekanism.common.tile.interfaces.IUpgradeTile;
 import mekanism.common.util.MekanismUtils;
+import net.yxiao233.mekanismupgradesreborn.Utils;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Overwrite;
 

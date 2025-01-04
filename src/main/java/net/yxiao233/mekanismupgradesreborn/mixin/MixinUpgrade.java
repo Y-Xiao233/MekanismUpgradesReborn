@@ -1,7 +1,7 @@
-package dev.felnull.mekanismtweaks.mixin;
+package net.yxiao233.mekanismupgradesreborn.mixin;
 
-import dev.felnull.mekanismtweaks.Temp;
 import mekanism.api.Upgrade;
+import net.yxiao233.mekanismupgradesreborn.Temp;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.ModifyVariable;
@@ -17,6 +17,6 @@ public abstract class MixinUpgrade {
 
     @ModifyVariable(method = "<init>", at = @At("HEAD"), ordinal = 1, argsOnly = true)
     private static int toFullStack(int i) {
-        return Temp.name.equals("speed") || Temp.name.equals("energy") ? 64 : i;
+        return Temp.name.equals("speed") || Temp.name.equals("energy") ? 16 : i;
     }
 }

@@ -1,12 +1,12 @@
-package dev.felnull.mekanismtweaks.mixin;
+package net.yxiao233.mekanismupgradesreborn.mixin;
 
-import dev.felnull.mekanismtweaks.Utils;
 import mekanism.api.Upgrade;
 import mekanism.common.MekanismLang;
 import mekanism.common.config.MekanismConfig;
 import mekanism.common.tile.interfaces.IUpgradeTile;
 import mekanism.common.util.UpgradeUtils;
 import net.minecraft.network.chat.Component;
+import net.yxiao233.mekanismupgradesreborn.Utils;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Overwrite;
 

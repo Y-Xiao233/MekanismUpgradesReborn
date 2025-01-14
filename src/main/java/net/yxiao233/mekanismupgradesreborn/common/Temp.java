@@ -1,4 +1,4 @@
-package net.yxiao233.mekanismupgradesreborn;
+package net.yxiao233.mekanismupgradesreborn.common;
 
 import java.util.function.BiConsumer;
 

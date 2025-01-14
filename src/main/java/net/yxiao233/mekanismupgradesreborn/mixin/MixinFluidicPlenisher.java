@@ -1,7 +1,7 @@
 package net.yxiao233.mekanismupgradesreborn.mixin;
 
 import mekanism.common.tile.machine.TileEntityFluidicPlenisher;
-import net.yxiao233.mekanismupgradesreborn.Temp;
+import net.yxiao233.mekanismupgradesreborn.common.Temp;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Shadow;
 import org.spongepowered.asm.mixin.injection.At;

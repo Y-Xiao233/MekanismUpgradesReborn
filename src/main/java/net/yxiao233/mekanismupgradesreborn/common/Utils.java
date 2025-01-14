@@ -1,4 +1,4 @@
-package net.yxiao233.mekanismupgradesreborn;
+package net.yxiao233.mekanismupgradesreborn.common;
 
 import mekanism.api.Upgrade;
 import mekanism.common.config.MekanismConfig;

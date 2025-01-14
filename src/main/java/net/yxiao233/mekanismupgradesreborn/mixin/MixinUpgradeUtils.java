@@ -6,7 +6,7 @@ import mekanism.common.config.MekanismConfig;
 import mekanism.common.tile.interfaces.IUpgradeTile;
 import mekanism.common.util.UpgradeUtils;
 import net.minecraft.network.chat.Component;
-import net.yxiao233.mekanismupgradesreborn.Utils;
+import net.yxiao233.mekanismupgradesreborn.common.Utils;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Overwrite;
 

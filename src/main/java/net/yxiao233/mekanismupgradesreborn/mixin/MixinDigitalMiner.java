@@ -10,7 +10,7 @@ import org.spongepowered.asm.mixin.injection.Slice;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
 @Mixin(value = TileEntityDigitalMiner.class, remap = false)
-public abstract class MixinHomoo {
+public abstract class MixinDigitalMiner {
 
     @Shadow
     private int delay;

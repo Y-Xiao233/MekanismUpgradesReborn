@@ -4,6 +4,7 @@
   "package": "net.yxiao233.mekanismupgradesreborn.mixin",
   "compatibilityLevel": "JAVA_8",
   "refmap": "mekanismupgradesreborn.refmap.json",
+  "plugin": "net.yxiao233.mekanismupgradesreborn.mixin.MixinPlugin",
   "mixins": [
     "DelayAccessor",
     "MixinCachedRecipe",
